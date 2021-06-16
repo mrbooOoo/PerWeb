@@ -64,6 +64,17 @@
             </footer>
         </div>
 
-		<!--<script type="text/javascript" src="/lib/script.js"></script>-->
+
+
+        <div class="loader">
+            <img src="images/pacman_gif.gif" alt="">
+        </div>
+        <script>
+            var loader = document.querySelector(".loader")
+            window.addEventListener("load", vanish);
+            function vanish(){
+                loader.classList.add("disappear");
+            }
+        </script>
     </body>
 </html>

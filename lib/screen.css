@@ -149,3 +149,24 @@ footer span a {
 .socials a:hover{
 	color: #f1db89;
 }
+
+.loader{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: black;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.disappear{
+	animation: vanish 1s forwards;
+}
+@keyframes vanish {
+	100%{
+		opacity: 0;
+		visibility: hidden;
+	}
+}
