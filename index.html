@@ -1,26 +1,55 @@
 <html lang="en">
     <head>
-        <meta http-equiv="content-type" content="text/html"; charset="UTF-8" />
-        <meta http-equiv="content-script-type" content="text/javascript" />
-		<meta http-equiv="content-style-type" content="text/css" />
+        <meta http-equiv="content-type" content="text/html"; charset="UTF-8">
+        <meta http-equiv="content-script-type" content="text/javascript">
+		<meta http-equiv="content-style-type" content="text/css">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="lib/style.css" rel="stylesheet" />
-        <link href="lib/bootstrap.min.css" rel="stylesheet" />
+        <!--<link href="lib/style.css" rel="stylesheet" />-->
+        <link href="lib/screen.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
         <title>PerWeb</title> <!--For now this is the title-->
     </head>
     <body>
-        <div id="top" class="jumbotron">
-            <div class="container">
-                <h1>Person Name</h1>
-                <p class="lead">Online Resume</p>
+        <div class="global-wrap">
+            <header class="header-section">
+                <nav class="header-nav">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Resume</a>
+                        </li>
+                        <li>
+                            <a href="#">About me</a>
+                        </li>
+                    </ul>
+                </nav>
+                <section class="header-info">
+                    <h1>Nome Apelido</h1>
+                    <h5>Welcome to my home! <br> The place were you'll get to know me a bit better.</h5>
+                </section>
+                <div id="header-overlay"></div>
+            </header>
+            
+            <main class="global-content">
+                <section>
+                    <h1>Resume</h1>
+                </section>
+                <section>
+                    <h1>About me</h1>
+                </section>
+            </main>
+
+            <footer>
+                <span>Developed by <a href="https://github.com/mrbooOoo">Carlos Oliveira</a> & <a href="https://github.com/joaovalentee">João Valente</a></span>
+            </footer>
         </div>
 
-
-
-        <script type="text/javascript" src="/lib/bootstrap.min.js"></script>
-		<script type="text/javascript" src="/lib/script.js"></script>
+		<!--<script type="text/javascript" src="/lib/script.js"></script>-->
     </body>
 </html>
