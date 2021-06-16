@@ -93,20 +93,59 @@ h5 { text-align: center; }
 /*******************/
 
 footer {
-	background-color: rgba(0, 0, 0, 0.85);
-	text-align: center;
+	background-color: #111;
+	height: auto;
+	width: 100%;
 	min-height: 70px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	color: #f1db89;
 }
 
 footer span {
-	font-size: 12px;
+	font-size: 14px;
 	color: rgba(255,255,255,0.7);
 }
 
 footer span a {
 	color: white;
 	text-decoration: none;
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-content h3{
+	color: rgb(255, 255, 255);
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 2rem;
+}
+.footer-content p{
+	max-width: 500px;
+	margin: 5px auto;
+	line-height: 20px;
+	font-size: 16px;
+}
+.socials{
+	list-style: none;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 3rem 0;
+}
+.socials li{
+	margin: 0 20px;
+}
+.socials a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.4rem;
+}
+.socials a:hover{
+	color: #f1db89;
 }
