@@ -5,7 +5,8 @@ h5 { text-align: center; }
 
 
 .global-content {
-	padding: 0 80px;	
+	padding: 0 80px;
+	padding-top: 30px;	
 }
 
 .header-section {
@@ -85,7 +86,78 @@ h5 { text-align: center; }
 /*******************/
 
 .global-content section {
-	min-height: 20em;
+	height: fit-content;
+}
+.div-resume{
+	width: 70%;
+	margin: 0 auto;
+}
+.h1-resume{
+	text-align: center;
+	font-size: 3rem;
+	color: #208f73;
+}
+.h2-resume{
+	text-align: left;
+	font-size: 2rem;
+	color: #2da386;
+}
+.h4-resume{
+	text-align: left;
+	font-size: 1.3rem;
+	color: #000000;
+	margin-bottom: -20px;
+	font-weight: bold;
+}
+.content-quotes{
+	text-align: center;
+    color: #687575;
+	font-size: 1.4rem;
+}
+.resume-text{
+	font-size: 1.3rem;
+	text-align: justify;
+}
+#resume-photo{
+	width: auto;
+	max-height: 246px;
+	margin: 0 auto;
+	display: flex;
+	border-radius: 50%;
+	box-shadow: #208f73 0 0 15px;
+}
+#grid-resume{
+	width: 70%;
+	margin: 0 auto;
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 1fr 0.4fr;
+	@media (max-width: 800px){
+		grid-template-columns: 1fr;
+	}
+
+}
+
+.grid-resume-content, .grid-resume-sidebar{
+	text-align: justify;
+}
+.date{
+	color: #208f73;
+	text-align: left;
+	font-size: 1.2rem;
+}
+.location-icon{
+	background: url(/images/location-icon.png) no-repeat;
+	background-size: 30px 30px;
+	padding-left: 35px;
+	font-size: 1.2rem;
+	margin: 0 10px;
+}
+
+hr{
+	width: 70%;
+    border-color: #727878;
+    opacity: 0.2;
 }
 
 /*******************/
