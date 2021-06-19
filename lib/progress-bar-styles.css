@@ -1,0 +1,128 @@
+.progress-bar{
+	background-color: #c9c9c9;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 20px;
+	width: 200px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.progress-bar-done-python {
+	background: linear-gradient(to left, #208f73, #e9cc63);
+	box-shadow: 0 3px 3px -5px #208f73, 0 2px 5px #e9cc63;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+.progress-bar-done-c {
+	background: linear-gradient(to left, #208f73, #e9cc63);
+	box-shadow: 0 3px 3px -5px #208f73, 0 2px 5px #e9cc63;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+.progress-bar-done-java {
+	background: linear-gradient(to left, #208f73, #e9cc63);
+	box-shadow: 0 3px 3px -5px #208f73, 0 2px 5px #e9cc63;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+.progress-bar-done-git {
+	background: linear-gradient(to left, #208f73, #e9cc63);
+	box-shadow: 0 3px 3px -5px #208f73, 0 2px 5px #e9cc63;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+.progress-bar-done-css3 {
+	background: linear-gradient(to left, #208f73, #e9cc63);
+	box-shadow: 0 3px 3px -5px #208f73, 0 2px 5px #e9cc63;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+.progress-bar-done-html5 {
+	background: linear-gradient(to left, #208f73, #e9cc63);
+	box-shadow: 0 3px 3px -5px #208f73, 0 2px 5px #e9cc63;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+.progress-bar-done-linux {
+	background: linear-gradient(to left, #208f73, #e9cc63);
+	box-shadow: 0 3px 3px -5px #208f73, 0 2px 5px #e9cc63;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+.progress-bar-done-office {
+	background: linear-gradient(to left, #208f73, #e9cc63);
+	box-shadow: 0 3px 3px -5px #208f73, 0 2px 5px #e9cc63;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+.progress-bar-done-autocad {
+	background: linear-gradient(to left, #208f73, #e9cc63);
+	box-shadow: 0 3px 3px -5px #208f73, 0 2px 5px #e9cc63;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
