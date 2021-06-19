@@ -164,6 +164,71 @@ h5 { text-align: center; }
 	text-align: center;
 }
 
+#grid-resume-projects{
+	padding-top: 30px;
+	width: 70%;
+	margin: 0 auto;
+	display: grid;
+	gap: 50px;
+	grid-template-columns: 0.6fr 0.6fr;
+	
+}
+.grid-projects{
+	text-align: center;
+}
+#header-projects{
+	width: auto;
+	max-height: 240px;
+	border-radius: 10px;
+}
+#date-projects{
+	text-align: center;
+	color: #000000;
+	margin-top: -20px;
+}
+#h4-keywords{
+	margin-top: -20px;
+}
+
+/***** BUTTON ****/
+.button {
+	display: flex;
+	height: 40px;
+	padding: 0;
+	background: #009578;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	font-family: "Quicksand", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+  }
+  
+  .button:hover {
+	background: #008168;
+  }
+  
+  .button:active {
+	background: #006e58;
+  }
+  
+  .button_text,
+  .button_icon {
+	display: inline-flex;
+	align-items: center;
+	padding: 0 24px;
+	color: #fff;
+	height: 100%;
+  }
+  
+  .button_icon {
+	font-size: 1.5em;
+	background: rgba(0, 0, 0, 0.08);
+  }
+/*****************/
+
 hr{
 	width: 70%;
     border-color: #727878;
