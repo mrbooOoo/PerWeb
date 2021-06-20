@@ -247,6 +247,7 @@ footer {
 	padding-top: 10px;
 	padding-bottom: 25px;
 	color: #f1db89;
+	margin-top: 50px;
 }
 
 footer span {
@@ -264,6 +265,7 @@ footer span a {
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
+	margin-top: -10px;
 }
 .footer-content h3{
 	color: rgb(255, 255, 255);
