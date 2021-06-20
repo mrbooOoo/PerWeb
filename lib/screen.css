@@ -3,6 +3,18 @@ body { background: white; }
 h1 { text-align: center; font-weight: 800; }
 h5 { text-align: center; }
 
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-track{
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background-color: #208f73;
+}
+
 
 .global-content {
 	padding: 0 80px;
@@ -87,6 +99,9 @@ h5 { text-align: center; }
 
 .global-content section {
 	height: fit-content;
+}
+.section-resume{
+	margin-bottom: 80px;
 }
 .div-resume{
 	width: 70%;
