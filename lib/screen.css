@@ -1,5 +1,5 @@
 html, body { font-family: 'Open Sans', sans-serif; margin: 0;}
-body { background: white; overflow: overlay;}
+body { background-color: white ;overflow: overlay;}
 h1 { text-align: center; font-weight: 800; }
 h5 { text-align: center; }
 
@@ -15,6 +15,9 @@ h5 { text-align: center; }
 	background-color: #208f73;
 }
 
+.global-wrap{
+	background: #000130;	
+}
 
 .global-content {
 	padding: 0 80px;
@@ -22,13 +25,69 @@ h5 { text-align: center; }
 }
 
 .header-section {
-	background-image: url(../images/bg-gif.gif);
-	background-size: cover;
 	height: 100vh;
 	width: 100%;
 	position: relative;
 	top:0;
 	margin: 0;
+}
+
+.header-section img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#h1-header{
+	padding-top: 700px;
+}
+#h5-header{
+	margin: 0 0 200 0;
+	font-size: 28px;
+	text-decoration: underline;
+}
+
+#scroll-down-animation {
+	position: absolute;
+	top: 92%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.mouse {
+	margin: 0 auto;
+	display: block;
+	border-radius: 50px;
+	border: 2px solid #fff;
+	height: 80px;
+	width: 40px;
+	position: relative;
+}
+  
+.move {
+	position: absolute;
+	background-color: #fff;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	left: 50%;
+	transform: translateX(-50%);
+	animation: move 2s linear infinite;
+}
+  
+@keyframes move {
+	0% {
+	  transform: translate(-50%,10px);
+	  opacity: 0;
+	}
+	50% {
+	  transform: translate(-50%,40px);
+	  opacity: 1;
+	}
+	100% {
+	  transform: translate(-50%,70px);
+	  opacity: 0;
+	}
 }
 
 .header-nav {
@@ -80,7 +139,7 @@ h5 { text-align: center; }
 	margin-right: -50%;
 	transform: translate(-50%, -60%);
 }
-
+/*
 #header-overlay {
 	background: #000000;
 	z-index: 1;
@@ -110,28 +169,30 @@ h5 { text-align: center; }
 .h1-resume{
 	text-align: center;
 	font-size: 3rem;
-	color: #208f73;
+	color: #c9023f;
 }
 .h2-resume{
 	text-align: left;
 	font-size: 2rem;
-	color: #2da386;
+	color: #c9023f;
 }
 .h4-resume{
 	text-align: left;
-	font-size: 1.3rem;
-	color: #000000;
+	font-size: 1.4rem;
+	color: white;
 	margin-bottom: -20px;
 	font-weight: bold;
+	text-decoration: underline;
 }
 .content-quotes{
 	text-align: center;
-    color: #687575;
+    color: #c9023f;
 	font-size: 1.4rem;
 }
 .resume-text{
 	font-size: 1.3rem;
 	text-align: justify;
+	color: white;
 }
 #resume-photo{
 	width: auto;
@@ -167,6 +228,7 @@ h5 { text-align: center; }
 	padding-left: 35px;
 	font-size: 1.2rem;
 	margin: 0 10px;
+	color: white;
 }
 #grid-resume-abilities{
 	display: grid;
@@ -198,8 +260,11 @@ h5 { text-align: center; }
 }
 #date-projects{
 	text-align: center;
-	color: #000000;
+	color: #208f73;
 	margin-top: -20px;
+}
+.h3-resume{
+	color: white;
 }
 #h4-keywords{
 	margin-top: -20px;
@@ -221,33 +286,36 @@ h5 { text-align: center; }
 	cursor: pointer;
   }
   
-  .button:hover {
+.button:hover {
 	background: #008168;
-  }
+}
   
-  .button:active {
+.button:active {
 	background: #006e58;
-  }
+}
   
-  .button_text,
-  .button_icon {
+.button_text, .button_icon {
 	display: inline-flex;
 	align-items: center;
 	padding: 0 24px;
 	color: #fff;
 	height: 100%;
-  }
+}
   
-  .button_icon {
+.button_icon {
 	font-size: 1.5em;
 	background: rgba(0, 0, 0, 0.08);
-  }
+}
+
+.keywords{
+	color: white;
+}
 /*****************/
 
 hr{
 	width: 70%;
-    border-color: #727878;
-    opacity: 0.2;
+    border-color: #22b1b1;
+    opacity: 0.8;
 }
 
 /*******************/
