@@ -1,5 +1,5 @@
 html, body { font-family: 'Open Sans', sans-serif; margin: 0;}
-body { background: white; overflow: overlay;}
+body { background: white; overflow: overlay; scroll-behavior: smooth;}
 h1 { text-align: center; font-weight: 800; }
 h5 { text-align: center; }
 
@@ -222,17 +222,20 @@ h5 { text-align: center; }
 	text-align: center;
     color: #687575;
 	font-size: 1.4rem;
+	width: 70%;
+	margin: 0 auto;
 }
 .resume-text{
 	font-size: 1.3rem;
 	text-align: justify;
+	line-height: 28px;
 }
 #resume-photo{
 	width: auto;
 	max-height: 246px;
 	margin: 0 auto;
 	display: flex;
-	border-radius: 50%;
+	border-radius: 15%;
 	box-shadow: #208f73 0 0 15px;
 }
 #grid-resume{
@@ -289,6 +292,7 @@ h5 { text-align: center; }
 	width: auto;
 	max-height: 240px;
 	border-radius: 10px;
+	zoom: 70%;
 }
 #date-projects{
 	text-align: center;
@@ -394,10 +398,11 @@ footer span a {
     display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 1rem 0 3rem 0;
+	margin: 1rem 0 2rem 0;
 }
 .socials li{
 	margin: 0 20px;
+	padding-top: 15px;
 }
 .socials a{
 	text-decoration: none;
