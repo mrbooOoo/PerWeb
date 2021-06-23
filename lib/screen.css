@@ -101,7 +101,7 @@ h5 { text-align: center; }
 	margin: 0 auto;
 	display: block;
 	border-radius: 50px;
-	border: 2px solid #fff;
+	border: 2px solid rgb(0, 0, 0);
 	height: 80px;
 	width: 40px;
 	position: relative;
@@ -109,7 +109,7 @@ h5 { text-align: center; }
   
 .move {
 	position: absolute;
-	background-color: #fff;
+	background-color: rgb(0, 0, 0);
 	height: 10px;
 	width: 10px;
 	border-radius: 50%;
