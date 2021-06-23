@@ -184,7 +184,7 @@ h5 { text-align: center; }
 	max-height: 246px;
 	margin: 0 auto;
 	display: flex;
-	border-radius: 50%;
+	border-radius: 15%;
 	box-shadow: #208f73 0 0 15px;
 }
 #grid-resume{

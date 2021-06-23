@@ -155,7 +155,8 @@
     align-items: center;
     opacity: 1;
     pointer-events: none;
-    white-space: nowrap;   
+    white-space: nowrap;
+    padding-left: 1px;   
 }
 
 .sidebar .profile-content .profile .profile-details .job{
@@ -169,10 +170,10 @@
 }
 
 .profile .profile-details img{
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 25px;
 }
 
 .profile .profile-details .job{
