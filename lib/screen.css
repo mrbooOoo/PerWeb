@@ -171,10 +171,13 @@ h5 { text-align: center; }
 	text-align: center;
     color: #687575;
 	font-size: 1.4rem;
+	width: 70%;
+	margin: 0 auto;
 }
 .resume-text{
 	font-size: 1.3rem;
 	text-align: justify;
+	line-height: 28px;
 }
 #resume-photo{
 	width: auto;
