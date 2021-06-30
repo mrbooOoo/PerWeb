@@ -201,6 +201,7 @@ h5 { text-align: center; }
 	width: 70%;
 	margin: 0 auto;
 }
+
 .h1-resume{
 	text-align: center;
 	font-size: 3rem;
@@ -247,6 +248,7 @@ h5 { text-align: center; }
 	}
 
 }
+
 #grid-profile{
 	width: 70%;
 	display: grid;
@@ -254,10 +256,8 @@ h5 { text-align: center; }
 	margin: 0 auto;
 	align-items: center;
 	grid-template-columns: 60% 40%;
-	@media (max-width: 800px){
-		grid-template-columns: 1fr;
-	}
 }
+
 .section-profile aside{
 	height: auto;
 }
@@ -302,6 +302,7 @@ h5 { text-align: center; }
 .grid-projects{
 	text-align: center;
 }
+
 #header-projects{
 	width: auto;
 	max-height: 240px;
@@ -425,4 +426,33 @@ footer span a {
 }
 .socials a:hover{
 	color: #f1db89;
+}
+
+
+
+@media (max-width: 800px){
+
+	.div-resume{
+		width: 100%;
+	}
+
+
+	#grid-profile{
+		width: 100%;
+		grid-template-columns: 1fr;
+	}
+
+	#grid-resume {
+		width: 100%;
+		grid-template-columns: 1fr;
+	}
+
+	#grid-resume-abilities {
+		grid-template-columns: 1fr;
+	}
+
+	#grid-resume-projects{
+		grid-template-columns: 1fr;
+	}
+	
 }
